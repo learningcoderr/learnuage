@@ -1,0 +1,201 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lernuage - Language Learning App</title>
+</head>
+
+<style>
+    body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    padding: 10vh;
+}
+
+.offset{
+    margin-top: 0;
+    text-align: center;
+    transition: .3s;
+}
+.language-section {
+    margin-top: 5vh;
+    background-color: #242222;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(53, 52, 52, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.language-section h2 {
+    text-align: center ;
+    color: #ddd;
+    position: absolute;
+}
+
+button {
+    background-color: #0499aa; 
+    border: 5%;
+    box-shadow: rgb(0, 52, 24) 5px 5px;
+    color: white;
+    padding: 16px 32px;
+    width: 200px;
+    text-align: center;
+    display: contents;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.001s;
+    cursor: pointer;
+}
+
+.header {
+ position: fixed;
+ top: 0;
+ width: 100vw;
+ height: 90px;
+ font-weight: bold;
+ z-index: 100;
+ transition: 0.3s;
+
+ background:#ffffff;
+ padding: 0cqmax;
+ margin-left: 0px;
+}
+
+ .header.highlight {
+ background-color: #ffffff;
+ }
+
+
+ .content {
+ margin-top: 15vh;
+ }
+
+h1{
+    font-size: 6vh;
+    position: fixed;
+    color: #000000;
+    text-decoration:double;
+    
+}
+.language-section button {
+    background-color: #4c9daf;
+    border: 5%;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;    
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.language-section button:hover {
+    background-color: #0b759c;
+    color: #cfe71b;
+    font-size: 17px;
+}
+
+.test-result {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.language-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.language-section a {
+    margin-left: auto;
+}
+
+</style>
+
+
+<body>
+    <header class="header" >
+        <div><h1>Lernuage - Language Learning App</h1></div>
+        </header>
+        <div class="content"></div>
+    <main>
+        <div class="offset">
+        <div>
+        <section id="english" class="language-section">
+                <span> <h2>English</h2></span>
+        <a href="https://www.englishclub.com/esl-quizzes/" target="_blank">
+                <button>Start Test</button>
+            </a>
+        </section></div>
+
+        <section id="dutch" class="language-section">
+            <h2>Dutch</h2>
+            
+            <a href="https://testyourlanguage.com/dutch-quiz#google_vignette" target="_blank">
+                <button>Test starten</button>
+            </a>
+        </section>
+
+        <section id="french" class="language-section">
+            <h2>French</h2>
+            
+            <a href="https://www.free-french-quiz.com/" target="_blank">
+                <button>Commencer le test</button>
+            </a>
+        </section>
+
+        <section id="punjabi" class="language-section">
+            <h2>Punjabi</h2>
+            
+            <a href="https://testyourlanguage.com/punjabi-quiz" target="_blank">
+                <button>ਪਰੀਕਸਾ ਸ਼ੁਰੂ ਕਰੋ</button>
+            </a>
+        </section>
+
+        <section id="urdu" class="language-section">
+            <h2>Urdu</h2>
+            
+            <a href="https://quizizz.com/admin/quiz/5db4a960ffa276001aec2ad0/urdu" target="_blank">
+                <button>परीक्षा शुरू करें</button>
+            </a>
+        </section>
+        
+        <section id="Spanish" class="language-section">
+            <h2>Spanish</h2>
+            
+            <a href="https://testyourlanguage.com/spanish-quiz" target="_blank">
+                <button>iniciar prueba</button>
+            </a>
+        </section>
+
+        <section id="Japanese" class="language-section">
+            <h2>Japanese</h2>
+            
+            <a href="https://www.transparent.com/learn-japanese/quizzes/lotw-quizzes/" target="_blank">
+                <button>テストを開始する</button>
+            </a>
+        </section>
+
+        <section id="Italian" class="language-section">
+            <h2>Italian</h2>
+            
+            <a href="https://www.learn-italian.net/italiantest" target="_blank">
+                <button>iniziare la prova</button>
+            </a>
+        </section>
+
+        <section id="Russian" class="language-section">
+            <h2>Russian</h2>
+            
+            <a href="https://www.russianforfree.com/quizzes-to-learn-russian.php" target="_blank">
+                <button>начать тест</button>
+            </a>
+        </section>
+        </div>
+    </main>
+   
+</body>
+</html>
